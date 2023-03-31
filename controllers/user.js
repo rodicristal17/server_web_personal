@@ -75,7 +75,7 @@ async function updateUser(req, res) {
         if (error) {
             res.status(400).send({ msg: "Error al actualizar el usuario" })
         } else {
-            res.statsu(200).send({ msg: "Actualización correcta" });
+            res.status(200).send({ msg: "Actualización correcta" });
         }
     });
 
